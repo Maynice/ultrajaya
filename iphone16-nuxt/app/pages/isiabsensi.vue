@@ -1,17 +1,26 @@
 <template>
-  <div class="relative w-[393px] h-[852px] mx-auto overflow-hidden font-sfpro">
+  <div class="relative w-[393px] h-[852px] mx-auto overflow-hidden font-sfpro ">
   <!-- Background images -->
-    <img src="/images/backgrounddull.png" alt="Background" class="w-[393px] h-[852px]" />  
+    <img src="/images/test3.png" alt="Background" class="w-[393px] h-[852px]" />  
       <!-- HEADER -->
        <img 
       src="/images/headerisiabsensi.png" 
       alt="header" 
       class="absolute top-[134px] left-[30px] w-[331px] h-[106px] cursor-pointer"/>
       <!-- GLASS GRAY -->
-      <img 
-      src="/images/isiabsensiglasstransparant.png" 
-      alt="header" 
-      class="absolute top-[181px] left-[30px] w-[331px] h-[364px] cursor-pointer"/>
+      <div
+      class="absolute top-[190px] left-[33px] w-[324px] h-[347px] rounded-[15px]
+             backdrop-blur-[10px] backdrop-saturate-125
+             shadow-[0_6px_6px_rgba(0,0,0,0.2),0_0_20px_rgba(0,0,0,0.1)]
+             border border-white/30
+             before:absolute before:inset-0
+             before:rounded-[15px]
+             before:shadow-[inset_1px_1px_0_rgba(255,255,255,0.75),inset_0_0_5px_rgba(255,255,255,0.75)]
+             before:pointer-events-none
+             after:absolute after:inset-0
+             after:rounded-[15px]
+             after:bg-white/25
+             after:pointer-events-none"></div>
       
       <!-- INPUT ABSENSI -->
       <div>

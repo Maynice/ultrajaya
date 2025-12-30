@@ -3,12 +3,12 @@
   <div class="w-[393px] h-screen mx-auto overflow-y-auto overflow-x-hidden font-sfpro scrollbar-hide">
     
     <!-- INNER CONTENT -->
-    <div class="relative w-[393px] min-h-[1200px]">
+    <div class="absolute w-[393px] h-[1196px]">
 
       <!-- BACKGROUND -->
       <div class="absolute inset-0 w-[393px] h-full">
         <img
-          src="/images/backgrounddull.png"
+          src="/images/test3longg.png"
           class="w-full h-full object-cover z-0"
         />
       </div>
@@ -85,8 +85,23 @@
       <!-- RIWAYAT ABSENSI GLASS -->
       <div class="absolute top-[382px] left-[32px] w-[329px] h-[500px] z-20">
 
-        <!-- Glass background with gradient border effect -->
-        <div class="absolute inset-0 w-full h-full rounded-[30px] backdrop-blur-xl bg-white/30 shadow-2xl border border-white/50"></div>
+        <!-- GLASS -->
+        <div
+          class="absolute inset-0 w-full h-full rounded-[30px]
+                 overflow-hidden
+                 bg-slate-300/15
+                 backdrop-blur-[4px] backdrop-saturate-125
+                 shadow-[0_6px_6px_rgba(0,0,0,0.1),0_0_15px_rgba(0,0,0,0.1)]
+                 border border-white/20
+                 before:absolute before:inset-0
+                 before:rounded-[30px]
+                 before:shadow-[inset_1px_1px_0_rgba(255,255,255,0.75),inset_0_0_5px_rgba(255,255,255,0.75)]
+                 before:pointer-events-none
+                 after:absolute after:inset-0
+                 after:rounded-[30px]
+                 after:bg-white/25
+                 after:pointer-events-none"
+        ></div>
 
         <!-- Scrollable entries container - INTERNAL SCROLL -->
         <div class="absolute inset-0 z-10">
